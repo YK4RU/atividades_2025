@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/Redstone_Dust_JE2_BE2.webp);
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;   
+    background-color:rgb(95, 5, 5); 
+}
+.link:link, .link:visited, .link:active {
+    text-decoration: none;
+    color: blanchedalmond;
+    border-right: 2px solid blanchedalmond;
+    font-size: 20px;
+    padding: 10px;
+}
+.link:hover {
+    text-decoration: none;
+    color: rgb(252, 151, 0);
+    border-right: 2px solid rgb(252, 151, 0);
+    font-size: 20px;
+    padding: 10px;
+}
+
+#imagem{
+    width: 111px;
+    border-radius: 300px;
+}
+
+#god{
+    width: 100%;
+}
+#vinicin_img{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    
+}
