@@ -5,37 +5,58 @@
 }
 
 body{
-    background-image: url(img/Redstone_Dust_JE2_BE2.webp);
+    background-image: url(assets/img/Redstone_Dust_JE2_BE2.webp);
 }
 
 header {
     display: flex;
-    justify-content: space-between;   
-    background-color:rgb(95, 5, 5); 
+    justify-content: space-between;
+    background-color: rgb(126, 27, 27);    
 }
 
-#menu-pricipal>menu {
+#menu-principal {
     display: flex;
-    background-color: aqua;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
 }
 
-#menu-pricipal>menu>li {
-    display: flex;
-
+#menu-principal>li {
+    list-style: none;
+    border-right: 1px solid rgb(255, 240, 240);
+    margin: 5px;
+    padding: 20px;
+    color: rgb(255, 240, 240);
 }
 
 #logo-wrap{
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
-
-#img>img {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 #logo-wrap>img{
-    width: 100px;
     border-radius: 200px;
+    width: 100px;
+    margin: 10px;
 }
+
+#img {
+    display: flex;
+    max-width: 100%;
+}
+
+#secao2{
+    display: flex;
+    align-items: center;
+}
+#secao2>img{
+    margin-top: 20px;
+    border: 1px solid red;
+    width: 430px;
+    margin-left: 19px;
+}
+
+#Vinitruviano{
+    text-align: center;
+    margin: 10px;
+}
+
