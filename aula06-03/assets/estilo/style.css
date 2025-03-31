@@ -6,9 +6,14 @@
 body{
     background-color: #f6f3e9;
     max-width: 100%;
+    padding: 100px;
 }
 
-/* header */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
 
 #cabecalho{
     display: flex;
@@ -65,15 +70,15 @@ body{
     text-decoration: none;
 }
 
-/* section 01 */
-
 #secao01{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 100%;
 }
 
+.imagem{
+    max-width: 100%;
+    padding: 10px;
+}
 .img-descricao{
     margin-right: 10px;
 }
@@ -117,10 +122,16 @@ body{
     text-decoration: none;
 }
 
-/* section 02 */
-
 #section02{
     background-color: #933c1f;
+}
+#direita-itens-paragrafo{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+#espaco-branco{
+    width: 2500px;
 }
 #abaixo-itens-paragrafo{
     display: flex;
@@ -129,9 +140,10 @@ body{
 .abaixo-itens-paragrafo-classe{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 25px;
 }
 #paragrafo-branco-lista>p{
+    padding: 10px;
     color: #f6f3e9;
     font-family: "Geologica", sans-serif;
 }
@@ -150,12 +162,10 @@ body{
     font-family: "Geologica", sans-serif;
 }
 
-/* section 03 */
-
 #titulo-link-colecao{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 100px;
 }
 #titulo-link-colecao>p{
     color: #933c1f;
@@ -175,14 +185,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-}
-
-/* footer */
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 200px;
 }
 #menu-principal-pe{
     display: flex;
